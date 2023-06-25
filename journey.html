@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/jour.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body class="animate__animated animate__fadeInRight">
+    <div class="container1212">
+        <div class="headerbox">
+            <div class="headerboxfirstflex">
+                <h3>Where are you Going?</h3>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <div class="justanotherflex">
+                <div class="locationupdown">
+                    <img src="images/location_icon.png" alt="">
+                </div>
+                <div class="enteringlocation">
+                    <form autocomplete="off" class="autocomplete">
+                        <label for="location">From</label><br>
+                        <input class="locationclass" type="text" id="location" name="location" placeholder="choose start location"><br>
+                        <label for="destination">To</label><br>
+                        <input class="locationclass" type="text" id="destination" name="destination" placeholder="choose destination">
+                    </form>
+
+
+
+                </div>
+                <div class="swappinglocation">
+                    <i class="bgGive fas fa-exchange-alt" id="exchangeLocation"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="basic-form">
+            <h2>Date</h2>
+            <div class="dates">
+                <p class="activdate">Today</p>
+                <p>Tomorrow</p>
+                <p><i class="fa-solid fa-calendar-days"></i></p>
+            </div>    
+            
+            <h2>Passenger</h2>
+            <div class="passengerss">
+                <p class="activepassenger" id="passenger1">1</p>
+                <p id="passenger2">2</p>
+                <p id="passenger3">3</p>
+                <p id="passenger4">4</p>
+                <p id="plusmore">+</p>
+            </div>
+            
+            <div class="showingimage">
+                <img src="images/scooter.png" id="settingImage" alt="passenger alternate image" height="200px">
+            </div>
+            
+            <center><button class="started" id="startedbtn" onclick="gotomaps()">Start</button>
+</center>
+           <!--
+            <div class="buttonsJour">
+                <button class="threebuttons" onclick="gotomaps()">confirm</button>
+                <button class="threebuttons" onclick="showWorks()">How it works</button>
+                <button class="threebuttons" onclick="help()">need help?</button>
+            </div>
+-->
+        </div>
+    </div>
+
+
+    <script src="script/script.js"></script>
+    <script src="script/jour.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>

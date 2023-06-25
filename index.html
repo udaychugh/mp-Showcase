@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        /*------------------------------           
+	Preloader 
+------------------------------*/
+
+        .load {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            background-color: #f3f3f3;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .preloaderimage {
+            animation: animate 3s infinite;
+        }
+
+        @keyframes animate {
+            0% {
+                width: 100%;
+            }
+
+            50% {
+                width: 75%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body class="map-image" style="margin-top: 50px;">
+    <div class="container">
+        <div class="headerlines">
+            <h2>Hey! Welcome</h2>
+            <br><br>
+            <h3>Adventure awaits, <br> let our app takes you there.</h3>
+        </div>
+
+        <div class="puttingbottom">
+            <button class="started animate__animated animate__fadeInUp animate__delay-0.8s" onclick="start()">Get Started</button>
+            <br><br>
+
+            <h3><a href="#" class="disablelink">I already have an account</a></h3>
+        </div>
+
+    </div>
+
+    <div class="load">
+        <img class="preloaderimage" src="images/logo_new.png" width="100%;" alt="">
+        <button onclick="openFullscreen()" class="started">Click me</button>
+    </div>
+
+    <script src="script/script.js"></script>
+    <script>
+
+    </script>
+    <script>
+        var elem = document.documentElement;
+        
+        function openFullscreen() {
+            $(".load").fadeOut("slow");
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) {
+                /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                /* IE11 */
+                elem.msRequestFullscreen();
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

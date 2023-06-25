@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fuel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="bottomnavbar">
+        <div class="navbaritems">
+            <a href="cost.html"><i class="fa-sharp fa-solid fa-credit-card"></i></a>
+            <a href="fuel.html" class="active"><i class="fa-sharp fa-solid fa-charging-station"></i></a>
+            <a href="map.html"><i class="fa-sharp fa-solid fa-traffic-light"></i></a>
+            <a href="weather.html"><i class="fa-solid fa-temperature-high"></i></a>
+            <a href="places.html"><i class="fa-solid fa-hotel"></i></a>
+        </div>
+    </div>    
+    
+    <div class="topwelcome">
+        <div class="leftsidewelcome">
+            <h2>Welcome User,</h2>
+            <h4>Where are we going today?</h4>
+        </div>
+        <div class="rightsidewelcome">
+            <img src="images/savedprofile.png" height="50px" width="50px" alt="">
+        </div>
+    </div>
+    
+    <div class="topdownbox">
+        <div class="firsttopdownbox">
+            <p class="extraprice">
+                <span id="fueldiff">+₹0.92</span>
+            </p>
+            <br>
+            <p><span id="city1">Delhi</span>, IN</p>
+            <p><i class="fa-solid fa-location-arrow"></i> <span id="city2">Mumbai</span>, IN <i class="fa-solid fa-map-pin"></i></p>
+            <br>
+            <p>
+                <span id="todaydateshow" class="extraprice">date</span>
+                <span id="totalreachtime" class="extraprice">time</span>
+            </p>
+        </div>
+        <img src="images/samplemap.png" height="150px" class="sidethisimage" alt="">
+    </div>
+    
+    <div class="detailsSection">
+        <div class="firstflexofdetails">
+            <h2>Details</h2>
+            <p>All</p>
+        </div>
+        <div class="deepdetails">
+            <div class="firstdeep">
+                <div class="createdeepbox">
+                    <p>Gas Price</p>
+                    <h3 id="price1">&#8377; 96.47</h3>
+                    <br>
+                    <p id="highlowshow">4% Higher <i class="fa-solid fa-arrow-trend-up"></i></p>
+                    <br>    
+                    <p>Local Average</p>
+                    <p>Gas Price</p>
+                    <p>Fuel Capacity</p>
+                    <br>
+                    <h3><i class="fa-sharp fa-solid fa-gas-pump"></i> Find Station</h3>
+                </div>
+            </div>
+            <div class="seconddeep">
+                <div class="upperseconddeep">
+                    <div class="createdeepbox">
+                        <p>Gas Used</p>
+                        <h3 id="showfuelcomsuption">0.84 Gal</h3>
+                        <p>Refuel Needed</p>
+                        <h3><i class="fa-solid fa-oil-can"></i> NO</h3>
+                    </div>
+                </div>
+                <div class="lowerseconddeep">
+                    <div class="firstlowerseconddeep">
+                        <div class="createdeepbox">
+                            <p id="city11"></p>
+                            <h3>&#8377; <span id="price11"></span></h3>
+                        </div>
+                    </div>
+                    <div class="secondlowerseconddeep">
+                        <div class="createdeepbox">
+                            <p id="city22"></p>
+                            <h3>&#8377; <span id="price2"></span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="locatatestation">
+        <h3>Locate Nearby Fuel Station</h3>
+        <br>
+        <div class="arrrowflex">
+            <div class="firstarrowflex">
+                <p>Available nearby station in 10km</p>
+                <h3><span id="station"></span> Fuel Station Found</h3>
+            </div>
+            <i class="fa-solid fa-location-arrow"></i>
+        </div>
+        <br>
+        <p align=center>View in map</p>
+    </div>
+    
+    
+    <!--<div class="container1212">
+        <div id="Fuel" class="tabcontent" style="text-transform: capitalize;">
+            <h3 class="responsive1">Fuel Consumption</h3>
+            <p class="responsive41 animate__animated animate__fadeInDown"><span id="showfuelcomsuption"></span> MPG</p>
+            <h3 class="responsive1">Nearby Fuel Stations</h3>
+            <p class="responsive41 animate__animated animate__fadeInUp"><span id="station"></span> <br> Fuel Stations found</p>
+            <h3 class="responsive1">Fuel Prices</h3>
+            <div class="fuelBox animate__animated animate__zoomIn animate__delay-1s">
+                <p class="responsive4"><span id="city1"></span></p>
+                <p class="responsive4"><span id="price1"></span></p>
+            </div>
+            <div class="fuelBox animate__animated animate__zoomIn animate__delay-2s">
+                <p class="responsive4"><span id="city2"></span></p>
+                <p class="responsive4"><span id="price2"></span></p>
+            </div>
+            <h3 class="responsive1">Fuel Difference</h3>
+            <div class="fuelBox animate__animated animate__zoomIn animate__delay-3s">
+                <p class="responsive4">Approx</p>
+                <p class="responsive4"><span id="fueldiff"></span></p>
+            </div>
+            
+        </div>
+    </div>-->
+
+    <script src="script/script.js"></script>
+    <script src="script/fuel.js"></script>
+</body></html>

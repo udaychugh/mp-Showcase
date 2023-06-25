@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bottomsheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body class="animate__animated animate__slideInRight">
+    <div class="container">
+        <div class="secondContainer">
+            <div class="basic-form">
+                <h2>Enter Car Info</h2>
+                <br>
+                <p style="color: white;">Please fill the form to continue</p>
+                <form>
+                    <input type="text" placeholder="car name">
+                    <input type="number" placeholder="model year">
+                    <input type="number" placeholder="kms driven">
+                    <input type="text" onclick="opensheet('fuel')" id="fuel" placeholder="Fuel Type">
+                    <input type="text" onclick="opensheet('condition')" id="condition" placeholder="Car Condition">
+                    <!--
+                    <select name="feul" id="feul" required>
+                        <option value="select">Fuel Type:</option>
+                        <option value="petrol">Petrol</option>
+                        <option value="diesel">Diesel</option>
+                        <option value="cng">CNG</option>
+                        <option value="electric">Electric</option>
+                    </select>
+                    <select name="condition" id="condition" required>
+                        <option value="condition">Car Condition</option>
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="avg">Average</option>
+                        <option value="bad">Bad</option>
+                        <option value="very">Very Bad</option>
+                    </select>
+-->
+
+                    <div class="somethingsomething">
+                        <a href="journey.html">Let's Go</a>
+                        <br><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- The sheet component -->
+    <div id="sheet" class="column items-center justify-end">
+        <!-- Dark background for the sheet -->
+        <div class="overlay" id="overlay"></div>
+        <!-- The sheet itself -->
+        <div class="contents column">
+            <!-- Sheet controls -->
+            <header class="controls">
+                <!-- The thing to drag if you want to resize the sheet -->
+                <div class="draggable-area">
+                    <div class="draggable-thumb"></div>
+                </div>
+            </header>
+            <!-- Body of the sheet -->
+            <main class="body fill column">
+                <div class="itemsofbottomsheet">
+                    <button id="value1">Value 1</button>
+                    <button id="value2">Value 1</button>
+                    <button id="value3">Value 1</button>
+                    <button id="value4">Value 1</button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+
+
+    <script src="script/script.js"></script>
+    <script src="script/bottomsheet.js"></script>
+</body>
+
+</html>

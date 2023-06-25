@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/places.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="bottomnavbar">
+        <div class="navbaritems">
+            <a href="cost.html"><i class="fa-sharp fa-solid fa-credit-card"></i></a>
+            <a href="fuel.html"><i class="fa-sharp fa-solid fa-charging-station"></i></a>
+            <a href="map.html"><i class="fa-sharp fa-solid fa-traffic-light"></i></a>
+            <a href="weather.html"><i class="fa-solid fa-temperature-high"></i></a>
+            <a href="places.html" class="active"><i class="fa-solid fa-hotel"></i></a>
+        </div>
+    </div>
+
+    <div class="places">
+        <div class="flexyFragment">
+            <div id="restro"><i class="fa-solid fa-utensils"></i> Food</div>
+            <div id="hotel"><i class="fa-solid fa-bed"></i> Hotel</div>
+        </div>
+
+        <h3 style="text-align: end;margin-right: 30px;"><i class="fa-solid fa-filter"></i> Filter</h3>
+
+        <div class="restroclass" id="restoshow">
+
+            <div class="displayboxofplace" id="restrobox">
+                <img src="[[resImage]]" alt="" id="restroImg">
+                <div class="placeinfo">
+                    <h3 id="restroName">[[name]]</h3>
+                    <p>Cost for Two: &#8377;<span id="restroCost">[[cost_for_two]]</span></p>
+                    <p>City : <span id="testrocity">[[city]]</span></p>
+                    <p class="stars"><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="hotelclass" id="hotelshow">
+            
+            <div class="displayboxofplace" id="hotelbox">
+                <img src="[[hotImage]]" alt="" id="restroImg">
+                <div class="placeinfo">
+                    <h3 id="hotelname">[[name]]</h3>
+                    <p>Price Per Night: &#8377;<span id="hotelCost">[[price_per_night]]</span></p>
+                    <p>City : <span id="hotelCity">[[city]]</span></p>
+                    <p class="stars"><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="script/script.js"></script>
+    <script src="script/places.js"></script>
+    <script src="script/places2.js"></script>
+    <script src="script/jquery.miranda.js"></script>
+    <script src="script/jquery.miranda.min.js"></script>
+    <script src="dataset/commonJson.json"></script>
+
+
+</body>
+
+</html>

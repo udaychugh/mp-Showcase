@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/map.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+    <div class="bottomnavbar">
+        <div class="navbaritems">
+            <a href="cost.html"><i class="fa-sharp fa-solid fa-credit-card"></i></a>
+            <a href="fuel.html"><i class="fa-sharp fa-solid fa-charging-station"></i></a>
+            <a href="map.html" class="active"><i class="fa-sharp fa-solid fa-traffic-light"></i></a>
+            <a href="fuel.html"><i class="fa-solid fa-temperature-high"></i></a>
+            <a href="places.html"><i class="fa-solid fa-hotel"></i></a>
+        </div>
+    </div>
+    
+    <p id="demo"></p>
+    
+<!--
+    <div class="googlemaps">
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.5303734888726!2d77.14995197487072!3d28.82380307537027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390daaf4c884f85b%3A0x1c00e11a9ce7433c!2sHMR%20Institute%20of%20Technology%20and%20Management!5e1!3m2!1sen!2sin!4v1687421853454!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+-->
+   
+    <div id='map'>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3495.5056194411964!2d77.14995197487072!3d28.82380307537027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1687672954427!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> 
+    
+    <div class="topverticalmenu">
+        <div class="topmenuitems">
+            <a href="#"><i id="useforhide" class="fa-solid fa-bars"></i></a>
+            <a href="#"><i id="firsthide" class="fa-solid fa-hourglass-start"></i></a>
+            <a href="#"><i id="secondhide" class="fa-solid fa-clock"></i></a>
+            <a href="#"><i id="thirdhide" class="fa-solid fa-heart-pulse"></i></a>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+    <script src="script/map.js"></script>
+</body></html>
