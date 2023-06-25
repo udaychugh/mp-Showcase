@@ -1,0 +1,41 @@
+.topverticalmenu {
+    position: fixed;
+    right: 0;
+}
+
+.topmenuitems {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.topmenuitems a {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    background: #F65429;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#map iframe{
+    height: 100%;
+    width: 100%;
+   
+}
+
+#map {
+    width: 140%;
+    height: 100%;
+}

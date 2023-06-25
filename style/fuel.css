@@ -1,0 +1,185 @@
+.responsive1 {
+    margin: 10px;
+    color: #66045E;
+    font-size: 28px;
+}
+
+.responsive41 {
+    background: #DB8DB9;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#station{
+    font-size: 28px;
+}
+
+.fuelBox{
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.fuelBox:nth-child(1){
+    background-color: #fff7f1;
+    background-image: url(../images/transport.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: top;
+}
+
+.fuelBox:nth-child(2){
+    background-color: #daeffc;
+    background-image: url(../images/hotel.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: top;    
+}
+
+.fuelBox:nth-child(3){
+    background-color: #ffe4e4;
+    background-image: url(../images/other.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: top;
+}
+
+
+
+/*---- new css ---*/
+
+.topwelcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.leftsidewelcome h4{
+    font-weight: 500;
+}
+
+.rightsidewelcome{
+    background: #F65429;
+    border-radius: 20px;
+}
+
+
+.topdownbox
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.firsttopdownbox{
+    background-color: #F65429;
+    padding: 20px 40px;
+    border-radius: 20px;
+    color: white;
+    width: 50%;
+    z-index: 9999;
+}
+
+
+.extraprice{
+    background-color: #F98D70;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.sidethisimage{
+    margin-left: -30px;
+}
+
+.detailsSection{
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+
+.firstflexofdetails
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.firstdeep{
+    margin-right: 10px;
+}
+
+.seconddeep{
+    margin-left: 10px;
+}
+
+.deepdetails{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.createdeepbox{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #F65429;
+}
+
+.lowerseconddeep{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.firstlowerseconddeep{
+    margin-right: 5px;
+}
+
+
+.lowerseconddeep h3{
+    font-size: 16px;
+}
+
+.locatatestation{
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.arrrowflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.arrrowflex i{
+    color: #F65429;
+    font-size: 42px;
+}

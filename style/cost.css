@@ -1,0 +1,117 @@
+.showingjourneycost{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    
+}
+
+.giveitaclass{
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.firstbox{
+    background: #F65429;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.firstbox h3:last-child{
+    margin-top: 15px;
+}
+
+.multibox{
+    margin-top: 20px;
+}
+
+.multibox .nichekro{
+    margin-bottom: 15px;
+}
+
+.forflexibility{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.smallmultibox{
+    padding: 25px;
+    width: 30%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.multiboxcosthere{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.smallmultibox:nth-child(1){
+    background-color: #F5771D;
+    background-image: url(../images/transport.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: top;
+}
+
+.smallmultibox:nth-child(2){
+    background-color: #1C84FF;
+    background-image: url(../images/hotel.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: top;
+}
+
+.smallmultibox:nth-child(3){
+    background-color: #F45555;
+    background-image: url(../images/food.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: top;
+}
+
+.smallmultibox:nth-child(4){
+    background-color: #2BF47B;
+    background-image: url(../images/other.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: top;
+    color: #F65429;
+}
+
+.smallmultibox h3{
+    margin-bottom: 10px;
+}
+
+.promotingtripy{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    color: #f3f3f3;    
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.showingchart{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.promotingtripy img{
+    width: 50vw;
+}

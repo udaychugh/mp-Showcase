@@ -1,0 +1,123 @@
+.headerboxfirstflex {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.headerboxfirstflex i{
+    font-size: 22px;
+}
+
+.locationclass{
+    background-color: transparent;
+    width: auto;
+    padding: 5px;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+}
+
+.locationclass:active,
+.locationclass:focus{
+    border-bottom: 2px solid green;
+}
+
+.justanotherflex{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    align-items: center;
+    margin-top: 30px;
+}
+
+.headerbox{
+    width: 100%;
+    background: #F65429;
+    color: white;
+    padding: 40px;
+    border-bottom-right-radius: 200px;
+}
+
+.dates{
+    display: flex;
+    justify-content: space-around;
+   
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.passengerss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.activepassenger{
+    background-color: #F98D70;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.activdate
+{
+    color: #F65429;
+}
+
+
+.showingimage{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.bgGive{
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 50%;
+    color: #F65429;
+    font-size: 22px;
+}
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #1e1e1e;
+    border-bottom: none;
+    border-top: none;
+    z-index: 9900;
+    height: auto;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 50px;
+    left: 0;
+    right: 0;
+    background: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #F65429;
+}
+
+.autocomplete-items div:hover {
+    background-color: #363636;
+}
+    
+.autocomplete-active {
+    background-color: #F65429 !important;
+    color: #ffffff;
+}

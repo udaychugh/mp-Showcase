@@ -1,0 +1,65 @@
+
+.places {
+    background-color: #1d1d1d;
+    height: 100vh;
+    color: white;
+}
+
+.flexyFragment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #F98D70;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#restro,
+#hotel {
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.restroclass,
+.hotelclass {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.restroclass {
+    display: flex;
+}
+
+.hotelclass {
+    display: none;
+}
+
+.displayboxofplace
+{
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(56, 98, 248, 0.37);
+}
+
+
+
+.displayboxofplace img {
+    margin-right: 30px;
+    
+    width: 111px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
