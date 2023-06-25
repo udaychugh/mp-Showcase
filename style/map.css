@@ -39,3 +39,17 @@
     width: 140%;
     height: 100%;
 }
+
+.emergency1,
+.emergency2,
+.emergency3 {
+    padding: 10px;
+    width: 50%;
+    margin-top: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #F65429;
+    text-decoration: none;
+    color: #f3f3f3;
+}
